@@ -1,11 +1,11 @@
 
 # Single-cell Multiomics GRN Inference Pipeline
 
-Infers transcription factor (TF)-target gene regulatory networks from paired single-cell RNA-seq and ATAC-seq data using the FigR algorithm.
+A simple custom pipeline to infer transcription factor (TF)-target gene regulatory networks from paired single-cell RNA-seq and ATAC-seq data using the CisTopic and FigR algorithm.
 
 ## Overview
 
-This pipeline processes multiome (paired scRNA-seq + scATAC-seq) data to identify gene regulatory relationships by:
+This pipeline processes multiome (processed paired scRNA-seq + scATAC-seq using seurat/signac or converted from python h5ad) data to identify gene regulatory relationships by:
 
 1. **Topic modeling** chromatin accessibility patterns by LDA (cisTopic)
 2. **Correlating** ATAC peaks with gene expression 
