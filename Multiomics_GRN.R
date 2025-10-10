@@ -1,5 +1,5 @@
 # ==============================================================================
-# Gene Regulatory Network Inference using FigR
+# Gene Regulatory Network Inference using CisTopic and FigR
 # ==============================================================================
 # Description: Infers transcription factor-target gene regulatory networks
 #              from paired single-cell RNA-seq and ATAC-seq data
